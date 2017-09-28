@@ -4,6 +4,7 @@ var testScope = "global";
 
 var firstFunction = function () {
     var testScope = "inside firstFunction";
+    console.log(testScope);
 };
 
 firstFunction();
