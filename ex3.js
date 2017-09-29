@@ -22,3 +22,13 @@ if (true) {
 console.log(name); 
 // console.log(likes);
 // console.log(skills); 
+
+
+
+try {
+    throw 123;
+}
+catch (e) {
+    // console.log(e);
+}
+console.log(e);
