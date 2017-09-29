@@ -11,8 +11,6 @@ if (!inBlock) {
 }
 
 if (true) {
-    // this 'if' conditional block doesn't create a scope
-
     // name is in the global scope because of the 'var' keyword
     var name = 'Some Name';
     // likes is in the local scope because of the 'let' keyword
